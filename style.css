@@ -1,0 +1,37 @@
+header.jumbotron {
+  height: 600px;
+  background-image: url("https://dummyimage.com/1920x1080");
+  background-size: cover;
+  background-position: center;
+}
+
+header.jumbotron h1 {
+  color: #fff;
+}
+
+section.container {
+  margin-top: 50px;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card-text {
+  color: green;
+  font-size: 60px;
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+.log-body {
+  background-image: url("img/05.jpg");
+  background-color: #cccccc;
+
+}
